@@ -110,8 +110,13 @@ const QuickRentalPage = () => {
     return (
         <>
             <Helmet>
-                <title>Hızlı Kirala | ECR Etkinlik Bilgisayar</title>
-                <meta name="description" content="3 adımda hızlı ve sonuca yönelik kiralama hizmeti. İhtiyaçlarınıza yönelik kısa ve uzun süreli kiralamalar için hemen talep oluşturun." />
+                <title>Hızlı Kirala | Teknoloji Kiralama Talebi - ECR Etkinlik Bilgisayar</title>
+                <meta name="description" content="3 adımda hızlı teknoloji kiralama talebi oluşturun. Bilgisayar, tablet, LED TV, VR ve daha fazlası için online kiralama formu. Aynı gün teslimat, 7/24 destek." />
+                <meta name="keywords" content="hızlı kiralama, online kiralama talebi, bilgisayar kiralama formu, teknoloji kiralama başvuru, etkinlik ekipman kiralama" />
+                <link rel="canonical" href="https://etkinlikbilgisayar.com/hizli-kirala" />
+                <meta property="og:title" content="Hızlı Kirala | Teknoloji Kiralama Talebi" />
+                <meta property="og:description" content="3 adımda hızlı teknoloji kiralama talebi. Bilgisayar, tablet, LED TV, VR kiralama." />
+                <meta property="og:url" content="https://etkinlikbilgisayar.com/hizli-kirala" />
             </Helmet>
 
             {/* Hero */}

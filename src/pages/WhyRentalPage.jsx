@@ -102,8 +102,13 @@ const WhyRentalPage = () => {
     return (
         <>
             <Helmet>
-                <title>Neden Kiralama Yapılır? | ECR Etkinlik Bilgisayar</title>
-                <meta name="description" content="Teknoloji kiralama avantajları: Finansal avantaj, güncel teknoloji, esneklik, bakım dahil, verimlilik artışı. Neden satın alma yerine kiralama?" />
+                <title>Neden Kiralama Yapılır? | Teknoloji Kiralama Avantajları - ECR</title>
+                <meta name="description" content="Teknoloji kiralama avantajları: Maliyet tasarrufu, güncel teknoloji, esneklik, bakım dahil, vergi avantajı. Satın alma vs kiralama karşılaştırması. Neden satın almak yerine kiralamalısınız?" />
+                <meta name="keywords" content="teknoloji kiralama avantajları, neden kiralama, bilgisayar kiralama faydaları, satın alma vs kiralama, kurumsal kiralama avantajları, uzun dönem kiralama avantajları" />
+                <link rel="canonical" href="https://etkinlikbilgisayar.com/neden-kiralama" />
+                <meta property="og:title" content="Neden Kiralama Yapılır? | Teknoloji Kiralama Avantajları" />
+                <meta property="og:description" content="Teknoloji kiralama avantajları: Maliyet tasarrufu, güncel teknoloji, esneklik, bakım dahil." />
+                <meta property="og:url" content="https://etkinlikbilgisayar.com/neden-kiralama" />
             </Helmet>
 
             {/* Hero */}

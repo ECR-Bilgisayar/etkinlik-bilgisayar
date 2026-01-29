@@ -115,8 +115,13 @@ const CorporateServicesPage = () => {
   return (
     <>
       <Helmet>
-        <title>Kurumsal Hizmetler | ECR Etkinlik Bilgisayar</title>
-        <meta name="description" content="Kiralama, uzun dönem kiralama, kayıt sistemleri, marka çözümleri ve network sistemleri. Türkiye'nin en geniş kurumsal teknoloji hizmet yelpazesi." />
+        <title>Kurumsal Hizmetler | ECR Etkinlik Bilgisayar - Teknoloji Kiralama Çözümleri</title>
+        <meta name="description" content="Kısa süreli kiralama, uzun dönem kiralama, kayıt sistemleri, marka çözümleri, network sistemleri ve 7/24 teknik destek. Kurumsal teknoloji kiralama hizmetleri." />
+        <meta name="keywords" content="kurumsal kiralama, uzun dönem kiralama, kısa süreli kiralama, etkinlik ekipman kiralama, kayıt sistemi kiralama, network kiralama, teknik destek" />
+        <link rel="canonical" href="https://etkinlikbilgisayar.com/kurumsal-hizmetler" />
+        <meta property="og:title" content="Kurumsal Hizmetler | ECR Etkinlik Bilgisayar" />
+        <meta property="og:description" content="Kurumsal teknoloji kiralama hizmetleri. Uzun dönem, kısa süreli kiralama ve teknik destek." />
+        <meta property="og:url" content="https://etkinlikbilgisayar.com/kurumsal-hizmetler" />
       </Helmet>
 
       {/* Hero */}

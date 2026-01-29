@@ -53,8 +53,13 @@ const AboutPage = () => {
   return (
     <>
       <Helmet>
-        <title>Hakkımızda | ECR Etkinlik Bilgisayar</title>
-        <meta name="description" content="ECR Etkinlik Bilgisayar, 2014'ten beri Türkiye'nin lider teknoloji kiralama şirketi. 10 yıllık tecrübe, 10.000+ ürün, 81 ilde hizmet." />
+        <title>Hakkımızda | ECR Etkinlik Bilgisayar - 10 Yıllık Teknoloji Kiralama Tecrübesi</title>
+        <meta name="description" content="ECR Etkinlik Bilgisayar, 2014'ten beri Türkiye'nin lider teknoloji kiralama şirketi. 10 yıllık tecrübe, 10.000+ ürün stoğu, 81 ilde hizmet, 4500+ memnun müşteri." />
+        <meta name="keywords" content="ECR Etkinlik Bilgisayar, teknoloji kiralama şirketi, bilgisayar kiralama firması, etkinlik bilgisayar kiralama, İstanbul teknoloji kiralama" />
+        <link rel="canonical" href="https://etkinlikbilgisayar.com/hakkimizda" />
+        <meta property="og:title" content="Hakkımızda | ECR Etkinlik Bilgisayar" />
+        <meta property="og:description" content="2014'ten beri Türkiye'nin lider teknoloji kiralama şirketi. 10.000+ ürün, 81 ilde hizmet." />
+        <meta property="og:url" content="https://etkinlikbilgisayar.com/hakkimizda" />
       </Helmet>
 
       {/* Hero */}

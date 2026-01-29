@@ -66,8 +66,13 @@ const ContactPage = () => {
   return (
     <>
       <Helmet>
-        <title>İletişim | ECR Etkinlik Bilgisayar</title>
-        <meta name="description" content="ECR Etkinlik Bilgisayar iletişim bilgileri. Adres, telefon ve iletişim formu. 0850 228 75 74" />
+        <title>İletişim | ECR Etkinlik Bilgisayar - 0850 228 75 74</title>
+        <meta name="description" content="ECR Etkinlik Bilgisayar iletişim bilgileri. Adres: İstoç, Mahmutbey, İstanbul. Telefon: 0850 228 75 74. E-posta: info@etkinlikbilgisayar.com. 7/24 destek." />
+        <meta name="keywords" content="ECR iletişim, etkinlik bilgisayar telefon, teknoloji kiralama iletişim, bilgisayar kiralama İstanbul" />
+        <link rel="canonical" href="https://etkinlikbilgisayar.com/iletisim" />
+        <meta property="og:title" content="İletişim | ECR Etkinlik Bilgisayar" />
+        <meta property="og:description" content="ECR Etkinlik Bilgisayar iletişim. Telefon: 0850 228 75 74, E-posta: info@etkinlikbilgisayar.com" />
+        <meta property="og:url" content="https://etkinlikbilgisayar.com/iletisim" />
       </Helmet>
 
       {/* Hero */}

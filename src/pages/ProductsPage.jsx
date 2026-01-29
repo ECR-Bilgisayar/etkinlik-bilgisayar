@@ -168,8 +168,13 @@ const ProductsPage = () => {
   return (
     <>
       <Helmet>
-        <title>Ürünler | ECR Etkinlik Bilgisayar - 10.000+ Ürün Stoğu</title>
-        <meta name="description" content="Bilgisayar, tablet, TV, yazıcı, VR teknolojileri ve daha fazlası. Türkiye'nin en geniş teknoloji kiralama parkuru." />
+        <title>Ürünler | ECR Etkinlik Bilgisayar - 10.000+ Teknoloji Kiralama Ürünü</title>
+        <meta name="description" content="Bilgisayar, laptop, MacBook, iPad, tablet, LED TV, video wall, yazıcı, VR gözlük, ses sistemi kiralama. Türkiye'nin en geniş teknoloji kiralama parkuru. Stoktan anında teslimat." />
+        <meta name="keywords" content="laptop kiralama, MacBook kiralama, iPad kiralama, LED TV kiralama, video wall kiralama, VR kiralama, Apple Vision Pro kiralama, PlayStation kiralama, ses sistemi kiralama" />
+        <link rel="canonical" href="https://etkinlikbilgisayar.com/urunler" />
+        <meta property="og:title" content="Ürünler | ECR Etkinlik Bilgisayar - 10.000+ Teknoloji Kiralama Ürünü" />
+        <meta property="og:description" content="Bilgisayar, tablet, LED TV, VR ve daha fazlası. Türkiye'nin en geniş teknoloji kiralama parkuru." />
+        <meta property="og:url" content="https://etkinlikbilgisayar.com/urunler" />
       </Helmet>
 
       {/* Hero */}
@@ -240,8 +245,8 @@ const ProductsPage = () => {
                     key={cat.id}
                     onClick={() => toggleCategory(cat.id)}
                     className={`w-full flex items-center justify-between p-4 rounded-xl transition-all duration-300 text-left ${expandedCategory === cat.id
-                        ? 'bg-red-600 text-white shadow-lg shadow-red-600/30'
-                        : 'bg-white text-gray-700 hover:bg-gray-100 border border-gray-200'
+                      ? 'bg-red-600 text-white shadow-lg shadow-red-600/30'
+                      : 'bg-white text-gray-700 hover:bg-gray-100 border border-gray-200'
                       }`}
                   >
                     <div className="flex items-center gap-3">

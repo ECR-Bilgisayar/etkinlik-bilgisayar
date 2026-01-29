@@ -148,7 +148,13 @@ const HomePage = () => {
     <>
       <Helmet>
         <title>ECR Etkinlik Bilgisayar | Türkiye'nin En Geniş Teknoloji Kiralama Parkuru</title>
-        <meta name="description" content="10.000+ ürün stoğu ile Türkiye'nin lider teknoloji kiralama şirketi. Bilgisayar, tablet, görüntü sistemleri ve kurumsal çözümler." />
+        <meta name="description" content="10.000+ ürün stoğu ile Türkiye'nin lider teknoloji kiralama şirketi. Bilgisayar, laptop, iPad, tablet, LED TV, VR, ses sistemi kiralama. 10 yıllık tecrübe, 81 ilde hizmet, 7/24 destek." />
+        <meta name="keywords" content="bilgisayar kiralama, laptop kiralama, iPad kiralama, tablet kiralama, LED TV kiralama, VR kiralama, teknoloji kiralama, etkinlik ekipman kiralama, kurumsal kiralama" />
+        <link rel="canonical" href="https://etkinlikbilgisayar.com/" />
+        <meta property="og:title" content="ECR Etkinlik Bilgisayar | Türkiye'nin En Geniş Teknoloji Kiralama Parkuru" />
+        <meta property="og:description" content="10.000+ ürün stoğu ile Türkiye'nin lider teknoloji kiralama şirketi. Bilgisayar, tablet, görüntü sistemleri ve kurumsal çözümler." />
+        <meta property="og:url" content="https://etkinlikbilgisayar.com/" />
+        <meta property="og:type" content="website" />
       </Helmet>
 
       {/* Hero Section - Kırmızı Siyah Premium */}
