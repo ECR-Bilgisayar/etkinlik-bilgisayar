@@ -133,9 +133,8 @@ const AboutPage = () => {
 
           {/* Timeline */}
           <div className="mb-24">
-            <div className="text-center mb-16">
-              <span className="inline-block text-sm font-bold text-red-600 tracking-wider uppercase mb-4">Yolculuğumuz</span>
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900">10 Yıllık Başarı Hikayesi</h2>
+            <div className="text-center mb-8">
+              <span className="text-3xl md:text-4xl font-bold text-red-600 tracking-wider uppercase mb-4">Yolculuğumuz</span>
             </div>
 
             <div className="relative">
