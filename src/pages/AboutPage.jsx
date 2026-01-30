@@ -80,6 +80,9 @@ const AboutPage = () => {
             className="max-w-3xl"
           >
 
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+              Hikayemiz
+            </h1>
             <p className="text-xl text-gray-400 leading-relaxed">
               ECR Etkinlik Bilgisayar olarak 2014’ten beri etkinliklere ve kurumlara teknoloji kiralama, kurulum ve saha desteğini tek çatı altında sunuyoruz. Güçlü operasyon kabiliyetimiz ve sahada hazır teknik ekibimizle ihtiyaca en uygun kurguyu hızla devreye alır, etkinliklerin kesintisiz ilerlemesini sağlarız.
             </p>
@@ -96,7 +99,6 @@ const AboutPage = () => {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
             >
-              <span className="inline-block text-sm font-bold text-red-600 tracking-wider uppercase mb-4">Hikayemiz</span>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
                 İnovatif Bilişim Çözümleri
               </h2>
