@@ -119,9 +119,9 @@ const HomePage = () => {
 
   // İstatistikler
   const stats = [
-    { label: "Ürün Stoğu", value: "10.000+" },
+    { label: "Ürün Stoğu", value: "11.000+" },
     { label: "Yıllık Tecrübe", value: "10+" },
-    { label: "Kurumsal Müşteri", value: "500+" },
+    { label: "Kurumsal Müşteri", value: "1900+" },
     { label: "Şehir Hizmet Alanı", value: "81" },
   ];
 
@@ -148,11 +148,11 @@ const HomePage = () => {
     <>
       <Helmet>
         <title>ECR Etkinlik Bilgisayar | Türkiye'nin En Geniş Teknoloji Kiralama Parkuru</title>
-        <meta name="description" content="10.000+ ürün stoğu ile Türkiye'nin lider teknoloji kiralama şirketi. Bilgisayar, laptop, iPad, tablet, LED TV, VR, ses sistemi kiralama. 10 yıllık tecrübe, 81 ilde hizmet, 7/24 destek." />
+        <meta name="description" content="11.000+ ürün stoğu ile Türkiye'nin lider teknoloji kiralama şirketi. Bilgisayar, laptop, iPad, tablet, LED TV, VR, ses sistemi kiralama. 10 yıllık tecrübe, 81 ilde hizmet, 7/24 destek." />
         <meta name="keywords" content="bilgisayar kiralama, laptop kiralama, iPad kiralama, tablet kiralama, LED TV kiralama, VR kiralama, teknoloji kiralama, etkinlik ekipman kiralama, kurumsal kiralama" />
         <link rel="canonical" href="https://etkinlikbilgisayar.com/" />
         <meta property="og:title" content="ECR Etkinlik Bilgisayar | Türkiye'nin En Geniş Teknoloji Kiralama Parkuru" />
-        <meta property="og:description" content="10.000+ ürün stoğu ile Türkiye'nin lider teknoloji kiralama şirketi. Bilgisayar, tablet, görüntü sistemleri ve kurumsal çözümler." />
+        <meta property="og:description" content="11.000+ ürün stoğu ile Türkiye'nin lider teknoloji kiralama şirketi. Bilgisayar, tablet, görüntü sistemleri ve kurumsal çözümler." />
         <meta property="og:url" content="https://etkinlikbilgisayar.com/" />
         <meta property="og:type" content="website" />
       </Helmet>
@@ -190,14 +190,14 @@ const HomePage = () => {
               </h1>
 
               <p className="text-lg text-gray-400 mb-8 leading-relaxed max-w-xl">
-                <strong className="text-white">10.000'den fazla ürün</strong> stoğumuz, profesyonel ekibimiz ve
+                <strong className="text-white">11.000'den fazla ürün</strong> stoğumuz, profesyonel ekibimiz ve
                 müşteri odaklı hizmet anlayışımızla tüm teknolojik ihtiyaçlarınızın
                 tek adresi ECR Etkinlik Bilgisayar.
               </p>
 
               {/* Key Points */}
               <div className="flex flex-wrap gap-4 mb-10">
-                {["10.000+ Ürün", "7/24 Destek", "81 İl Hizmeti", "Aynı Gün Teslimat"].map((item, i) => (
+                {["11.000+ Ürün", "7/24 Destek", "81 İl Hizmeti", "Aynı Gün Teslimat"].map((item, i) => (
                   <div key={i} className="flex items-center gap-2 text-sm text-gray-300">
                     <CheckCircle2 className="w-4 h-4 text-red-500" />
                     <span className="font-medium">{item}</span>
@@ -347,7 +347,7 @@ const HomePage = () => {
             <div>
               <span className="inline-block text-sm font-bold text-red-600 tracking-wider uppercase mb-4">Ürün Parkuru</span>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-                10.000+ Ürün <br />Tek Çatı Altında
+                11.000+ Ürün <br />Tek Çatı Altında
               </h2>
               <p className="text-gray-600 max-w-xl">
                 Etkinlikleriniz ve kurumsal ihtiyaçlarınız için adet sınırı olmadan tüm teknolojik çözümler.
@@ -461,7 +461,7 @@ const HomePage = () => {
             <span className="inline-block text-sm font-bold text-red-600 tracking-wider uppercase mb-4">Referanslar</span>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Müşterilerimiz Ne Diyor?</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Yüzlerce memnun müşterimizin deneyimlerinden bazıları.
+              Binlerce memnun müşterimizin deneyimlerinden bazıları.
             </p>
           </div>
 

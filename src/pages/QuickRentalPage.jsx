@@ -392,7 +392,7 @@ const QuickRentalPage = () => {
                             </div>
                             <div className="flex items-center gap-2">
                                 <CheckCircle2 className="w-4 h-4 text-red-500" />
-                                <span>10.000+ Ürün Stoğu</span>
+                                <span>11.000+ Ürün Stoğu</span>
                             </div>
                             <div className="flex items-center gap-2">
                                 <CheckCircle2 className="w-4 h-4 text-red-500" />

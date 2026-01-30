@@ -47,18 +47,18 @@ const AboutPage = () => {
     { year: "2016", title: "Büyüme", description: "Ürün parkurumuz 1.000 ürüne, müşteri portföyümüz 100+ firmaya ulaştı." },
     { year: "2018", title: "Yazılım Hizmetleri", description: "Kiralama yanında marka çözümleri ve yazılım hizmetlerini portföye ekledik." },
     { year: "2020", title: "Pandemi Dönüşümü", description: "Uzun dönem kiralama ve hibrit etkinlik çözümleri ile sektöre liderlik ettik." },
-    { year: "2024", title: "10. Yıl", description: "10.000+ ürün stoğu ve 81 ilde hizmet veren Türkiye'nin lider teknoloji kiralama şirketiyiz." },
+    { year: "2024", title: "10. Yıl", description: "11.000+ ürün stoğu ve 81 ilde hizmet veren Türkiye'nin lider teknoloji kiralama şirketiyiz." },
   ];
 
   return (
     <>
       <Helmet>
-        <title>Hakkımızda | ECR Etkinlik Bilgisayar - 10 Yıllık Teknoloji Kiralama Tecrübesi</title>
-        <meta name="description" content="ECR Etkinlik Bilgisayar, 2014'ten beri Türkiye'nin lider teknoloji kiralama şirketi. 10 yıllık tecrübe, 10.000+ ürün stoğu, 81 ilde hizmet, 4500+ memnun müşteri." />
+        <title>Hakkımızda | ECR Etkinlik Bilgisayar - 12 Yıllık Teknoloji Kiralama Tecrübesi</title>
+        <meta name="description" content="ECR Etkinlik Bilgisayar, 2014'ten beri Türkiye'nin lider teknoloji kiralama şirketi. 12 yıllık tecrübe, 11.000+ ürün stoğu, 81 ilde hizmet, 4500+ memnun müşteri." />
         <meta name="keywords" content="ECR Etkinlik Bilgisayar, teknoloji kiralama şirketi, bilgisayar kiralama firması, etkinlik bilgisayar kiralama, İstanbul teknoloji kiralama" />
         <link rel="canonical" href="https://etkinlikbilgisayar.com/hakkimizda" />
         <meta property="og:title" content="Hakkımızda | ECR Etkinlik Bilgisayar" />
-        <meta property="og:description" content="2014'ten beri Türkiye'nin lider teknoloji kiralama şirketi. 10.000+ ürün, 81 ilde hizmet." />
+        <meta property="og:description" content="2014'ten beri Türkiye'nin lider teknoloji kiralama şirketi. 11.000+ ürün, 81 ilde hizmet." />
         <meta property="og:url" content="https://etkinlikbilgisayar.com/hakkimizda" />
       </Helmet>
 
@@ -110,14 +110,13 @@ const AboutPage = () => {
               </h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  <strong className="text-gray-900">ECR</strong> - Etkinlik Bilgisayarın İngilizcesi olan "Event Computer Rental"ın baş harfleridir.
-                  Ama bizce en önemlisi Osmanlıca'da kiraya karşılık gelen ödeme anlamına gelir!
-                  Bu yüzden ismi ve geçmişi ile örtüşen bir unvanımız olduğundan çok mutluyuz.
+                  <strong className="text-gray-900">ECR</strong> - Etkinlik Bilgisayar; etkinlik sektöründe teknoloji kiralama, kurulum ve etkinlik odaklı çözümleri tek çatı altında sunan bir teknoloji firmasıdır.
+                  12 yıllık saha deneyimiyle müşterilerimizin beklentilerini iyi anlayan, genç, dinamik ve çalışkan operasyon ekibiyle güçlü bir hizmet yapısı oluşturmuştur.
                 </p>
                 <p>
-                  ECR Etkinlik Bilgisayar'ı sıradan kiralama firmalarından ayıran en büyük özelliği,
-                  sürekli olarak değişen teknolojiye anında adapte olması, o günün teknolojik ihtiyaçlarına karşılık,
-                  müşterinin talepleri ile faydaları doğrultusunda kendini anında güncelleyebiliyor olmasıdır.
+                  Sektörde öne çıkan yaklaşımımız, değişen teknolojiye hızlı adapte olup ihtiyaca göre doğru çözümü kurgulamaktır.
+                  Müşteri talebini yalnızca ürün bazında değil, etkinliğin hedefi ve beklenen çıktıları üzerinden ele alır;
+                  Doğru ekipmanı, doğru kurgu ile birleştirerek çözümü sahada sorunsuz şekilde devreye alırız.
                 </p>
                 <p>
                   Nitekim sadece teknoloji kiralama hizmeti vermek değil, kendi içinde oluşturduğu yazılım,
@@ -222,7 +221,7 @@ const AboutPage = () => {
 
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {[
-                  { icon: <Package className="w-6 h-6" />, title: "10.000+ Ürün", desc: "En geniş kiralama parkuru" },
+                  { icon: <Package className="w-6 h-6" />, title: "11.000+ Ürün", desc: "En geniş kiralama parkuru" },
                   { icon: <Headphones className="w-6 h-6" />, title: "7/24 Destek", desc: "Kesintisiz teknik yardım" },
                   { icon: <MapPin className="w-6 h-6" />, title: "81 İl Hizmeti", desc: "Türkiye geneli teslimat" },
                   { icon: <Building2 className="w-6 h-6" />, title: "10+ Yıl", desc: "Sektör tecrübesi" },

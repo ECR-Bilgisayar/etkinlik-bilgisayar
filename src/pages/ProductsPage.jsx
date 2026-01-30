@@ -168,11 +168,11 @@ const ProductsPage = () => {
   return (
     <>
       <Helmet>
-        <title>Ürünler | ECR Etkinlik Bilgisayar - 10.000+ Teknoloji Kiralama Ürünü</title>
+        <title>Ürünler | ECR Etkinlik Bilgisayar - 11.000+ Teknoloji Kiralama Ürünü</title>
         <meta name="description" content="Bilgisayar, laptop, MacBook, iPad, tablet, LED TV, video wall, yazıcı, VR gözlük, ses sistemi kiralama. Türkiye'nin en geniş teknoloji kiralama parkuru. Stoktan anında teslimat." />
         <meta name="keywords" content="laptop kiralama, MacBook kiralama, iPad kiralama, LED TV kiralama, video wall kiralama, VR kiralama, Apple Vision Pro kiralama, PlayStation kiralama, ses sistemi kiralama" />
         <link rel="canonical" href="https://etkinlikbilgisayar.com/urunler" />
-        <meta property="og:title" content="Ürünler | ECR Etkinlik Bilgisayar - 10.000+ Teknoloji Kiralama Ürünü" />
+        <meta property="og:title" content="Ürünler | ECR Etkinlik Bilgisayar - 11.000+ Teknoloji Kiralama Ürünü" />
         <meta property="og:description" content="Bilgisayar, tablet, LED TV, VR ve daha fazlası. Türkiye'nin en geniş teknoloji kiralama parkuru." />
         <meta property="og:url" content="https://etkinlikbilgisayar.com/urunler" />
       </Helmet>
@@ -199,7 +199,7 @@ const ProductsPage = () => {
               Türkiye'nin En Geniş Parkuru
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              10.000+ Ürün<br />
+              11.000+ Ürün<br />
               <span className="text-red-500">Premium Kiralama</span>
             </h1>
             <p className="text-xl text-gray-400 leading-relaxed mb-4">

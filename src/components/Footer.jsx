@@ -20,7 +20,7 @@ const Footer = () => {
               />
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed">
-              2014 yılından bu yana, 10.000'den fazla ürün stoğu ve profesyonel ekibimizle
+              2014 yılından bu yana, 11.000'den fazla ürün stoğu ve profesyonel ekibimizle
               Türkiye'nin lider teknoloji kiralama çözüm ortağıyız.
             </p>
             <div className="flex gap-3">
