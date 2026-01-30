@@ -36,9 +36,9 @@ const AboutPage = () => {
   ];
 
   const stats = [
-    { label: "Yıllık Tecrübe", value: "10+" },
+    { label: "Yıllık Tecrübe", value: "12+" },
     { label: "Mutlu Müşteri", value: "4500+" },
-    { label: "Ürün Stoğu", value: "10K+" },
+    { label: "Ürün Stoğu", value: "11K+" },
     { label: "Hizmet Şehri", value: "81" },
   ];
 
@@ -119,9 +119,7 @@ const AboutPage = () => {
                   Doğru ekipmanı, doğru kurgu ile birleştirerek çözümü sahada sorunsuz şekilde devreye alırız.
                 </p>
                 <p>
-                  Nitekim sadece teknoloji kiralama hizmeti vermek değil, kendi içinde oluşturduğu yazılım,
-                  teknik ve lojistik personeli sayesinde talepler doğrultusunda etkinlik sektörü ya da
-                  ihtiyaçlarınıza yönelik <strong className="text-gray-900">katma değerli hizmetler</strong> üreten bir dinamo haline gelmiştir.
+                  ECR Etkinlik Bilgisayar, yalnızca teknoloji kiralayan bir firma değildir; yazılım geliştirme, teknik kurulum, lojistik sevkiyat ve saha operasyonları gücünü tek yapıda birleştirerek etkinlik ihtiyaçlarını uçtan uca sahiplenen, talebe göre katma değerli çözümler üreten bir operasyon dinamosudur. Etkinlik boyunca teknik ekiplerimiz sahada hazır bulunur; kurulum, canlı operasyon ve söküm adımlarını yöneterek etkinliğin kesintisiz ve kontrollü şekilde yürütülmesini sağlar.
                 </p>
               </div>
 
