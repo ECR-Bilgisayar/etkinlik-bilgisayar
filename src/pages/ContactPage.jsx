@@ -58,8 +58,7 @@ const ContactPage = () => {
     {
       icon: <Clock className="w-5 h-5" />,
       title: "Çalışma Saatleri",
-      content: "Pazartesi - Cuma: 09:00 - 18:00",
-      content: "Cumartesi 09:00 - 13:00",
+      content: "Pazartesi - Cuma: 09:00 - 18:00 Cumartesi: 09.00 - 13.00",
       link: null
     }
   ];
