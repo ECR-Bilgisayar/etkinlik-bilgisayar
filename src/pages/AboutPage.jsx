@@ -15,18 +15,18 @@ const AboutPage = () => {
   const values = [
     {
       icon: <Target className="w-8 h-8" />,
-      title: "Müşteri Odaklılık",
-      description: "Müşterilerimizin ihtiyaçlarını dinliyor, onlara özel çözümler üretiyoruz. 'Bizde yok' demiyoruz."
+      title: "Çözüm Odaklılık",
+      description: "Mİhtiyacı dinler, hedefi netleştirir ve projeye en uygun çözümü hızla kurgularız. Alternatif senaryolarla süreci güvenceye alırız."
     },
     {
       icon: <Award className="w-8 h-8" />,
-      title: "Kalite Standartları",
-      description: "Sadece en iyi markaların en yeni ve sorunsuz ürünlerini kiralıyoruz."
+      title: "Hızlı Operasyon",
+      description: "Kurulumdan canlı operasyona, söküme kadar sahadayız. Teknik ekibimizle anlık destek vererek etkinliği kesintisiz yürütürüz."
     },
     {
       icon: <TrendingUp className="w-8 h-8" />,
-      title: "Sürekli İnovasyon",
-      description: "Teknoloji dünyasındaki gelişmeleri yakından takip ediyor ve parkurumuzu güncel tutuyoruz."
+      title: "Güncel Teknoloji",
+      description: "Kiralama parkurumuzu güncel tutar, yeni teknolojileri doğru yerde doğru kurguyla kullanırız. Deneyimi artıran çözümleri hızlıca devreye alırız."
     },
   ];
 
