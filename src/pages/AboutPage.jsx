@@ -79,13 +79,7 @@ const AboutPage = () => {
             transition={{ duration: 0.8 }}
             className="max-w-3xl"
           >
-            <div className="inline-flex items-center gap-2 mb-6 px-4 py-2 bg-red-600 rounded-full text-sm font-medium">
-              <Calendar className="w-4 h-4" />
-              2014'ten Beri
-            </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              Biz Kimiz?
-            </h1>
+
             <p className="text-xl text-gray-400 leading-relaxed">
               ECR Etkinlik Bilgisayar olarak 2014’ten beri etkinliklere ve kurumlara teknoloji kiralama, kurulum ve saha desteğini tek çatı altında sunuyoruz. Güçlü operasyon kabiliyetimiz ve sahada hazır teknik ekibimizle ihtiyaca en uygun kurguyu hızla devreye alır, etkinliklerin kesintisiz ilerlemesini sağlarız.
             </p>
