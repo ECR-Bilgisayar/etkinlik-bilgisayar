@@ -87,9 +87,7 @@ const AboutPage = () => {
               Biz Kimiz?
             </h1>
             <p className="text-xl text-gray-400 leading-relaxed">
-              ECR Etkinlik Bilgisayar, sektöre yenilikçi ve farklı bir bakış açısı ile hizmet vermeyi
-              amaçlayan, kısa sürede kendini sektöre ve müşterilerine kanıtlamış; genç, dinamik ve
-              çalışkan ekipten oluşan operasyonel yapıda bir teknoloji firmasıdır.
+              ECR Etkinlik Bilgisayar olarak; etkinlik sektöründe teknoloji kiralama, kurulum ve etkinlik odaklı çözümleri tek çatı altında sunuyoruz. 12 yıllık saha deneyimimizle müşterilerimizin beklentilerini iyi anlıyor; genç, dinamik ve çalışkan operasyon ekibimizle güçlü bir hizmet yapısı oluşturuyoruz.
             </p>
           </motion.div>
         </div>
@@ -110,17 +108,12 @@ const AboutPage = () => {
               </h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  <strong className="text-gray-900">ECR</strong> - Etkinlik Bilgisayar; etkinlik sektöründe teknoloji kiralama, kurulum ve etkinlik odaklı çözümleri tek çatı altında sunan bir teknoloji firmasıdır.
-                  12 yıllık saha deneyimiyle müşterilerimizin beklentilerini iyi anlayan, genç, dinamik ve çalışkan operasyon ekibiyle güçlü bir hizmet yapısı oluşturmuştur.
+                  Sektörde öne çıkan yaklaşımımız, değişen teknolojiye hızlı adapte olup ihtiyaca göre doğru çözümü kurgulamaktır. Müşteri talebini yalnızca ürün bazında değil, etkinliğin hedefi ve beklenen çıktıları üzerinden ele alır; doğru ekipmanı doğru kurgu ile birleştirerek çözümü sahada sorunsuz şekilde devreye alırız.
                 </p>
                 <p>
-                  Sektörde öne çıkan yaklaşımımız, değişen teknolojiye hızlı adapte olup ihtiyaca göre doğru çözümü kurgulamaktır.
-                  Müşteri talebini yalnızca ürün bazında değil, etkinliğin hedefi ve beklenen çıktıları üzerinden ele alır;
-                  Doğru ekipmanı, doğru kurgu ile birleştirerek çözümü sahada sorunsuz şekilde devreye alırız.
-                </p>
+                  Biz yalnızca teknoloji kiralayan bir firma değiliz; yazılım geliştirme, teknik kurulum, lojistik sevkiyat ve saha operasyonları gücünü tek yapıda birleştirerek etkinlik ihtiyaçlarını uçtan uca sahiplenen, operasyon gücü yüksek bir çözüm ortağıyız. Etkinlik boyunca teknik ekiplerimiz sahada hazır bulunur; kurulum, canlı operasyon ve söküm adımlarını yöneterek etkinliğin kesintisiz ve kontrollü şekilde yürütülmesini sağlarız.                </p>
                 <p>
-                  ECR Etkinlik Bilgisayar, yalnızca teknoloji kiralayan bir firma değildir; yazılım geliştirme, teknik kurulum, lojistik sevkiyat ve saha operasyonları gücünü tek yapıda birleştirerek etkinlik ihtiyaçlarını uçtan uca sahiplenen, talebe göre katma değerli çözümler üreten bir operasyon dinamosudur. Etkinlik boyunca teknik ekiplerimiz sahada hazır bulunur; kurulum, canlı operasyon ve söküm adımlarını yöneterek etkinliğin kesintisiz ve kontrollü şekilde yürütülmesini sağlar.
-                </p>
+                  Teknolojiyi sadece “ürün” olarak değil, etkinliğin hedefini büyüten bir araç olarak konumlandırırız. Bu doğrultuda kiralama parkurumuzdaki ürünleri ve çalışma yöntemlerimizi sürekli günceller; her projede ihtiyaca en uygun kurgu için alternatif senaryolar üretiriz. Planlamadan saha uygulamasına kadar süreci net ve takip edilebilir bir yaklaşımla yöneterek müşterilerimize hızlı, esnek ve güvenilir bir hizmet standardı sunmayı hedefleriz.                </p>
               </div>
 
               <div className="mt-8 p-6 bg-gray-50 rounded-xl border border-gray-200">

@@ -189,7 +189,7 @@ const ProductsPage = () => {
 
         <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
           <motion.div
-            initial={{ opacity: 0, y: 30 }}
+            initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             className="max-w-3xl"
@@ -226,7 +226,7 @@ const ProductsPage = () => {
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="w-full pl-12 pr-6 py-4 bg-gray-900 border border-gray-800 rounded-xl focus:outline-none focus:border-red-600 transition-all text-white placeholder:text-gray-500"
               />
-              <Search className="absolute left-4 top-4.5 w-5 h-5 text-gray-500" />
+              <Search className="absolute left-4 top-4 w-5 h-5 text-gray-500" />
             </div>
           </motion.div>
         </div>
