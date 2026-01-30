@@ -87,7 +87,7 @@ const AboutPage = () => {
               Biz Kimiz?
             </h1>
             <p className="text-xl text-gray-400 leading-relaxed">
-              ECR Etkinlik Bilgisayar olarak; etkinlik sektöründe teknoloji kiralama, kurulum ve etkinlik odaklı çözümleri tek çatı altında sunuyoruz. 12 yıllık saha deneyimimizle müşterilerimizin beklentilerini iyi anlıyor; genç, dinamik ve çalışkan operasyon ekibimizle güçlü bir hizmet yapısı oluşturuyoruz.
+              ECR Etkinlik Bilgisayar olarak 2014’ten beri etkinliklere ve kurumlara teknoloji kiralama, kurulum ve saha desteğini tek çatı altında sunuyoruz. Güçlü operasyon kabiliyetimiz ve sahada hazır teknik ekibimizle ihtiyaca en uygun kurguyu hızla devreye alır, etkinliklerin kesintisiz ilerlemesini sağlarız.
             </p>
           </motion.div>
         </div>
@@ -116,12 +116,7 @@ const AboutPage = () => {
                   Teknolojiyi sadece “ürün” olarak değil, etkinliğin hedefini büyüten bir araç olarak konumlandırırız. Bu doğrultuda kiralama parkurumuzdaki ürünleri ve çalışma yöntemlerimizi sürekli günceller; her projede ihtiyaca en uygun kurgu için alternatif senaryolar üretiriz. Planlamadan saha uygulamasına kadar süreci net ve takip edilebilir bir yaklaşımla yöneterek müşterilerimize hızlı, esnek ve güvenilir bir hizmet standardı sunmayı hedefleriz.                </p>
               </div>
 
-              <div className="mt-8 p-6 bg-gray-50 rounded-xl border border-gray-200">
-                <p className="text-gray-700 italic">
-                  "Bugünün küçük işi, yarının büyük girişimcisi" sloganı ile istediğiniz tüm adetlerde
-                  sizlere destek oluyoruz. Kiralamada adet ve miktara bakmadan hizmet veriyoruz.
-                </p>
-              </div>
+
             </motion.div>
 
             <motion.div
