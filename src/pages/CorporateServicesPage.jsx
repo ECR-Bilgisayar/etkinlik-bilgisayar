@@ -92,23 +92,23 @@ const CorporateServicesPage = () => {
   const advantages = [
     {
       icon: <Zap className="w-6 h-6" />,
-      title: "Hızlı Teslimat",
-      description: "Stoktan aynı gün teslimat imkanı"
+      title: "Hızlı Devreye Alma",
+      description: "Planlama, sevkiyat ve kurulum süreçlerinde hızlı aksiyon."
     },
     {
       icon: <Shield className="w-6 h-6" />,
-      title: "Tam Güvence",
-      description: "Sigortalı ve garantili ekipmanlar"
+      title: "Kontrollü Teslimat",
+      description: "Kontrol edilmiş, hazır ve eksiksiz ekipman teslimi."
     },
     {
       icon: <Users className="w-6 h-6" />,
-      title: "Uzman Ekip",
-      description: "Deneyimli teknik personel"
+      title: "Saha Teknik Ekip",
+      description: "Kurulumdan canlı operasyona kadar sahada teknik destek."
     },
     {
       icon: <Clock className="w-6 h-6" />,
-      title: "7/24 Destek",
-      description: "Kesintisiz teknik yardım"
+      title: "Operasyon Takibi",
+      description: "Süreç boyunca koordinasyon ve kesintisiz ilerleyiş takibi."
     }
   ];
 
@@ -140,14 +140,13 @@ const CorporateServicesPage = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <span className="inline-block text-sm font-bold text-red-500 tracking-wider uppercase mb-4">Kurumsal Çözümler</span>
+            <span className="inline-block text-sm font-bold text-red-500 tracking-wider uppercase mb-4">Kurumsal Hizmetler</span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              Piyasanın En Geniş<br />
-              <span className="text-red-500">Hizmet Yelpazesi</span>
+              En Kapsamlı<br />
+              <span className="text-red-500">Kiralama Parkuru</span>
             </h1>
             <p className="text-xl text-gray-400 max-w-2xl leading-relaxed">
-              Sadece ekipman kiralaması değil, uçtan uca profesyonel teknoloji çözümleri sunuyoruz.
-              İşletmenizin tüm teknolojik ihtiyaçları için tek adres.
+              Sadece ekipman kiralamıyoruz; ihtiyaç analizi, hızlı planlama, kurulum ve saha desteğiyle kurumsal projelerin teknoloji operasyonunu tek akışta yönetiyoruz.
             </p>
           </motion.div>
 
