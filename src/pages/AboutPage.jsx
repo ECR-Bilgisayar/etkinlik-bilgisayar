@@ -7,14 +7,9 @@ import {
   Award,
   TrendingUp,
   CheckCircle2,
-  ArrowRight,
-  Building2,
-  MapPin,
-  Calendar,
-  Package,
-  Headphones
+  Calendar
 } from 'lucide-react';
-import { Link } from 'react-router-dom';
+
 
 const AboutPage = () => {
   const values = [
@@ -43,11 +38,19 @@ const AboutPage = () => {
   ];
 
   const timeline = [
-    { year: "2014", title: "Kuruluş", description: "ECR Etkinlik Bilgisayar, İstanbul'da genç ve dinamik bir kadro ile kuruldu." },
-    { year: "2016", title: "Büyüme", description: "Ürün parkurumuz 1.000 ürüne, müşteri portföyümüz 100+ firmaya ulaştı." },
-    { year: "2018", title: "Yazılım Hizmetleri", description: "Kiralama yanında marka çözümleri ve yazılım hizmetlerini portföye ekledik." },
-    { year: "2020", title: "Pandemi Dönüşümü", description: "Uzun dönem kiralama ve hibrit etkinlik çözümleri ile sektöre liderlik ettik." },
-    { year: "2024", title: "10. Yıl", description: "11.000+ ürün stoğu ve 81 ilde hizmet veren Türkiye'nin lider teknoloji kiralama şirketiyiz." },
+    { year: "2014", title: "Başlangıç", description: "Etkinlik teknolojilerinde kiralama, kurulum ve saha desteği odağıyla yola çıktık." },
+    { year: "2015", title: "Yazılım Departmanı", description: "Yazılım departmanımızı oluşturarak etkinlik ve kurumsal projelere özel çözümler geliştirmeye başladık; operasyonu destekleyen sistemlerle hizmet kapsamımızı genişlettik." },
+    { year: "2016", title: "Operasyon Standardı", description: "Teslimat–kurulum–canlı operasyon–söküm akışını netleştirerek hızımızı ve kontrolümüzü artırdık." },
+    { year: "2016", title: "Uzun Dönem Kiralama", description: "Kısa süreli projelerin yanı sıra uzun dönem kiralama hizmetimizi devreye alarak kurumsal ihtiyaçlara daha sürdürülebilir ve planlı çözümler sunmaya başladık." },
+    { year: "2016", title: "Sahada Teknisyen Desteği", description: "Teknisyen hizmetimizi devreye alarak etkinlik süresince sahada görevli teknik ekip bulundurmaya başladık; kurulumdan söküme kadar tüm akışı yönetip ihtiyaç anlarında hızlı müdahale ile sürecin kesintisiz ilerlemesini sağladık." },
+    { year: "2017", title: "Kayıt ve Akreditasyon Sistemleri", description: "Kayıt ve akreditasyon süreçlerini uçtan uca yönetebilmek için sistemlerimizi aktif hale getirdik; hızlı kurulum ve sahada anlık destekle operasyonun sürekliliğini güçlendirdik." },
+    { year: "2017", title: "VR Teknolojileri", description: "VR teknolojilerini kiralama parkurumuza ekleyerek etkinliklerde deneyimi güçlendiren, daha etkileşimli çözümler sunmaya başladık; kurulum ve saha desteğiyle VR uygulamalarını etkinlik akışına sorunsuz şekilde entegre ettik." },
+    { year: "2018", title: "Ölçek ve Proje Çeşitliliği", description: "Farklı ölçekte etkinlik ve kurumsal projelerde hızlı devreye alma kabiliyetimizi geliştirerek daha geniş ihtiyaçlara çözüm üretmeye başladık." },
+    { year: "2019", title: "E-spor Etkinlik Ekibi", description: "E-spor etkinliklerine özel bir ekip oluşturarak turnuva kurulumları, donanım altyapısı ve saha operasyonlarını daha sistemli yönetmeye başladık; yüksek performans gerektiren organizasyonlarda anlık teknik destekle kesintisiz akış sağladık." },
+    { year: "2020", title: "Esneklik ve Alternatif Kurgu", description: "Her proje için alternatif senaryolar üreten, hızlı planlama yapabilen daha esnek bir çalışma disiplinini yaygınlaştırdık." },
+    { year: "2022", title: "Uçtan Uca Yönetim", description: "Yazılım, teknik kurulum, lojistik sevkiyat ve saha operasyonlarını tek akışta yöneten yapımızı güçlendirerek müşterilerimize tek çatı altında entegre hizmet sunma yapımızı pekiştirdik." },
+    { year: "2022", title: "Markaya Özel Çözümler", description: "Markaların hedefi ve etkinlik kurgusuna göre şekillenen, içerik ve operasyonla bütünleşen özel çözümler geliştirmeye başladık; her projede markaya uygun deneyimi hızlıca devreye alıp sahada uçtan uca yönettik." },
+    { year: "Bugün", title: "Güncel Teknoloji, Güçlü Saha", description: "Kiralama parkurumuzu ve çalışma yöntemlerimizi sürekli güncelliyor; hızlı geri dönüş ve sahada hazır teknik ekip yaklaşımımızla projeleri uçtan uca yönetiyoruz." },
   ];
 
   return (
@@ -186,47 +189,6 @@ const AboutPage = () => {
                   <p className="text-gray-600 text-sm leading-relaxed">{val.description}</p>
                 </motion.div>
               ))}
-            </div>
-          </div>
-
-          {/* Key Features */}
-          <div className="bg-black rounded-3xl p-10 md:p-16 relative overflow-hidden">
-            <div className="absolute top-0 right-0 w-1/3 h-full opacity-10">
-              <div className="absolute inset-0" style={{
-                backgroundImage: `radial-gradient(circle at 2px 2px, #dc2626 1px, transparent 0)`,
-                backgroundSize: '32px 32px'
-              }}></div>
-            </div>
-
-            <div className="relative z-10">
-              <h2 className="text-2xl md:text-3xl font-bold text-white mb-8 text-center">Neden ECR?</h2>
-
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                {[
-                  { icon: <Package className="w-6 h-6" />, title: "11.000+ Ürün", desc: "En geniş kiralama parkuru" },
-                  { icon: <Headphones className="w-6 h-6" />, title: "7/24 Destek", desc: "Kesintisiz teknik yardım" },
-                  { icon: <MapPin className="w-6 h-6" />, title: "81 İl Hizmeti", desc: "Türkiye geneli teslimat" },
-                  { icon: <Building2 className="w-6 h-6" />, title: "10+ Yıl", desc: "Sektör tecrübesi" },
-                ].map((item, idx) => (
-                  <div key={idx} className="bg-gray-900 rounded-xl p-6 text-center border border-gray-800 hover:border-red-600/50 transition-colors">
-                    <div className="w-12 h-12 bg-gray-800 rounded-lg flex items-center justify-center text-red-500 mx-auto mb-4">
-                      {item.icon}
-                    </div>
-                    <h3 className="font-bold text-white mb-1">{item.title}</h3>
-                    <p className="text-sm text-gray-400">{item.desc}</p>
-                  </div>
-                ))}
-              </div>
-
-              <div className="text-center mt-10">
-                <Link
-                  to="/iletisim"
-                  className="inline-flex items-center gap-2 px-8 py-4 bg-red-600 text-white rounded-xl font-bold transition-all duration-300 hover:bg-red-700 hover:shadow-lg hover:shadow-red-600/30"
-                >
-                  Bizimle İletişime Geçin
-                  <ArrowRight className="w-5 h-5" />
-                </Link>
-              </div>
             </div>
           </div>
         </div>
