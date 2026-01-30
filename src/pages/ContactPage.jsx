@@ -59,6 +59,7 @@ const ContactPage = () => {
       icon: <Clock className="w-5 h-5" />,
       title: "Çalışma Saatleri",
       content: "Pazartesi - Cuma: 09:00 - 18:00",
+      content: "Cumartesi 09:00 - 13:00",
       link: null
     }
   ];
@@ -240,9 +241,7 @@ const ContactPage = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
             >
               <h2 className="text-2xl font-bold text-gray-900 mb-2">Konumumuz</h2>
-              <p className="text-gray-600 mb-8">
-                İstanbul Mahmutbey'deki merkez ofisimizi ziyaret edebilirsiniz.
-              </p>
+
 
               {/* Map */}
               <div className="w-full h-80 bg-gray-100 rounded-2xl overflow-hidden relative mb-8 border border-gray-200">
@@ -259,34 +258,7 @@ const ContactPage = () => {
                 ></iframe>
               </div>
 
-              {/* Quick Contact Box */}
-              <div className="bg-black rounded-2xl p-8 text-white">
-                <h3 className="font-bold text-lg mb-4 flex items-center gap-2">
-                  <MessageSquare className="w-5 h-5 text-red-500" />
-                  Hızlı İletişim
-                </h3>
-                <p className="text-gray-400 text-sm mb-6">
-                  Acil talepleriniz için doğrudan bizi arayabilirsiniz.
-                  İddialıyız, bizden hızlı mail veya aramalara geri dönüş yapabilen
-                  bir kiralama firması olamaz!
-                </p>
-                <div className="space-y-3">
-                  <a
-                    href="tel:08502287574"
-                    className="flex items-center gap-3 text-white hover:text-red-500 transition-colors"
-                  >
-                    <Phone className="w-5 h-5 text-red-500" />
-                    <span className="font-bold">0850 228 75 74</span>
-                  </a>
-                  <a
-                    href="mailto:info@etkinlikbilgisayar.com"
-                    className="flex items-center gap-3 text-gray-400 hover:text-white transition-colors text-sm"
-                  >
-                    <Mail className="w-5 h-5 text-red-500" />
-                    info@etkinlikbilgisayar.com
-                  </a>
-                </div>
-              </div>
+
             </motion.div>
           </div>
         </div>
