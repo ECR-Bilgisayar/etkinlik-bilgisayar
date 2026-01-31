@@ -9,6 +9,9 @@ import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import WhyRentalPage from './pages/WhyRentalPage';
 import QuickRentalPage from './pages/QuickRentalPage';
+import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
+import KVKKPage from './pages/KVKKPage';
+import TermsOfServicePage from './pages/TermsOfServicePage';
 
 function App() {
   return (
@@ -22,6 +25,9 @@ function App() {
           <Route path="/hakkimizda" element={<AboutPage />} />
           <Route path="/iletisim" element={<ContactPage />} />
           <Route path="/hizli-kirala" element={<QuickRentalPage />} />
+          <Route path="/gizlilik-politikasi" element={<PrivacyPolicyPage />} />
+          <Route path="/kvkk" element={<KVKKPage />} />
+          <Route path="/kullanim-kosullari" element={<TermsOfServicePage />} />
         </Routes>
       </Layout>
     </Router>

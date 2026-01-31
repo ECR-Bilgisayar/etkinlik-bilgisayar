@@ -144,9 +144,9 @@ const Footer = () => {
             © {currentYear} ECR Etkinlik Bilgisayar Teknolojileri A.Ş. Tüm hakları saklıdır.
           </p>
           <div className="flex gap-6 text-sm text-gray-500">
-            <a href="#" className="hover:text-red-500 transition-colors">Gizlilik Politikası</a>
-            <a href="#" className="hover:text-red-500 transition-colors">KVKK</a>
-            <a href="#" className="hover:text-red-500 transition-colors">Kullanım Koşulları</a>
+            <Link to="/gizlilik-politikasi" className="hover:text-red-500 transition-colors">Gizlilik Politikası</Link>
+            <Link to="/kvkk" className="hover:text-red-500 transition-colors">KVKK</Link>
+            <Link to="/kullanim-kosullari" className="hover:text-red-500 transition-colors">Kullanım Koşulları</Link>
           </div>
         </div>
       </div>
