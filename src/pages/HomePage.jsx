@@ -83,14 +83,14 @@ const HomePage = () => {
 
   // Ürün Kategorileri
   const productCategories = [
-    { icon: <Monitor className="w-6 h-6" />, title: "Bilgisayar & Laptop", count: "500+" },
-    { icon: <Tablet className="w-6 h-6" />, title: "iPad & Tablet", count: "1000+" },
-    { icon: <Tv className="w-6 h-6" />, title: "TV & Görüntü Sistemleri", count: "300+" },
-    { icon: <Printer className="w-6 h-6" />, title: "Yazıcı & Baskı", count: "200+" },
-    { icon: <Headphones className="w-6 h-6" />, title: "VR & AR Teknolojileri", count: "150+" },
-    { icon: <Speaker className="w-6 h-6" />, title: "Ses Sistemleri", count: "100+" },
-    { icon: <Gamepad2 className="w-6 h-6" />, title: "Gaming & Konsol", count: "200+" },
-    { icon: <Cpu className="w-6 h-6" />, title: "Diğer Ekipmanlar", count: "1000+" },
+    { icon: <Monitor className="w-6 h-6" />, title: "Bilgisayar & Laptop" },
+    { icon: <Tablet className="w-6 h-6" />, title: "iPad & Tablet" },
+    { icon: <Tv className="w-6 h-6" />, title: "TV & Görüntü Sistemleri" },
+    { icon: <Printer className="w-6 h-6" />, title: "Yazıcı & Baskı" },
+    { icon: <Headphones className="w-6 h-6" />, title: "VR & AR Teknolojileri" },
+    { icon: <Speaker className="w-6 h-6" />, title: "Ses Sistemleri" },
+    { icon: <Gamepad2 className="w-6 h-6" />, title: "Gaming & Konsol" },
+    { icon: <Cpu className="w-6 h-6" />, title: "Diğer Ekipmanlar" },
   ];
 
   // Neden Kiralama Avantajları
@@ -374,11 +374,8 @@ const HomePage = () => {
                   to="/urunler"
                   className="group block bg-white rounded-xl p-6 border border-gray-200 hover:border-red-200 hover:shadow-xl transition-all duration-300"
                 >
-                  <div className="flex items-start justify-between mb-4">
-                    <div className="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center text-gray-600 group-hover:bg-red-600 group-hover:text-white transition-all duration-300">
-                      {cat.icon}
-                    </div>
-                    <span className="text-xs font-bold text-red-600 bg-red-50 px-2 py-1 rounded">{cat.count}</span>
+                  <div className="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center text-gray-600 group-hover:bg-red-600 group-hover:text-white transition-all duration-300 mb-4">
+                    {cat.icon}
                   </div>
                   <h3 className="text-base font-bold text-gray-900 group-hover:text-red-600 transition-colors">{cat.title}</h3>
                 </Link>
