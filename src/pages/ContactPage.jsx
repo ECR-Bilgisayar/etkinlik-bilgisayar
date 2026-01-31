@@ -245,7 +245,7 @@ const ContactPage = () => {
               {/* Map */}
               <div className="w-full h-80 bg-gray-100 rounded-2xl overflow-hidden relative mb-8 border border-gray-200">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3008.647355280252!2d28.80556507655073!3d41.05471497134444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa5596720498b%3A0xe5a396495b6a7845!2zxLBzdG_Dpw!5e0!3m2!1str!2str!4v1703600000000!5m2!1str!2str"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3008.1295429817455!2d28.815241376452338!3d41.06616091585805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa5707d5dea65%3A0x666cd2100159dab3!2sEtkinlik%20Bilgisayar!5e0!3m2!1str!2str!4v1769856494119!5m2!1str!2str"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}

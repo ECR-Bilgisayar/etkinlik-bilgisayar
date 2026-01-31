@@ -32,7 +32,7 @@ const AboutPage = () => {
 
   const stats = [
     { label: "Yıllık Tecrübe", value: "12+" },
-    { label: "Mutlu Müşteri", value: "4500+" },
+    { label: "Mutlu Müşteri", value: "2.100+" },
     { label: "Ürün Stoğu", value: "11.000+" },
     { label: "Hizmet Şehri", value: "81" },
   ];

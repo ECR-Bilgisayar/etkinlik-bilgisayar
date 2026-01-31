@@ -121,7 +121,7 @@ const HomePage = () => {
   const stats = [
     { label: "Ürün Stoğu", value: "11.000+" },
     { label: "Yıllık Tecrübe", value: "12+" },
-    { label: "Kurumsal Müşteri", value: "1900+" },
+    { label: "Kurumsal Müşteri", value: "2100+" },
     { label: "Şehir Hizmet Alanı", value: "81" },
   ];
 
